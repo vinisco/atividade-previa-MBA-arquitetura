@@ -1,6 +1,6 @@
 ## Descrição
 
-Projeto criado sem a exigência de criptografia, apenas pra mostrar alguns conceitos para o desafio prévio da matéria Arquitetura JavaScript do curso MBA Full Stack do IGTI (Instituto de Gestão e Tecnologia da Informação).
+Projeto criado sem a exigência de criptografia e demais praxes, apenas pra mostrar alguns conceitos para o desafio prévio da matéria Arquitetura JavaScript do curso MBA Desenvolvimento Full Stack do IGTI (Instituto de Gestão e Tecnologia da Informação).
 
 ## Começando
 
