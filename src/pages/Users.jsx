@@ -39,7 +39,7 @@ export default function Users() {
     );
   else {
     return (
-      <div>
+      <>
         <h1 className="text-center mt-5 mb-5">Usuários cadastrados:</h1>
         <div className="row">
           {usersData.map(({ name, email, id }) => {
@@ -54,7 +54,7 @@ export default function Users() {
             );
           })}
         </div>
-      </div>
+      </>
     );
   }
 }

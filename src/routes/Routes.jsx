@@ -7,7 +7,7 @@ import Users from "../pages/Users";
 
 export default function routes() {
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/*" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -15,6 +15,6 @@ export default function routes() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/users" element={<Users />} />
       </Routes>
-    </div>
+    </>
   );
 }

@@ -6,7 +6,7 @@ export default function Header() {
   const location = useLocation();
 
   return (
-    <div>
+    <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <Link className="navbar-brand" to="/home">
           Atividade Prévia MBA
@@ -63,6 +63,6 @@ export default function Header() {
           </ul>
         </div>
       </nav>
-    </div>
+    </>
   );
 }
