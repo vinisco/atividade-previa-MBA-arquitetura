@@ -8,9 +8,9 @@ export default function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/home">
           Atividade Prévia MBA
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
