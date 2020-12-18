@@ -40,11 +40,15 @@ export default function Users() {
   else {
     return (
       <div>
-        <h1 className="text-center mt-3 mb-3">Usuários cadastrados:</h1>
+        <h1 className="text-center mt-5 mb-5">Usuários cadastrados:</h1>
         <div className="row">
           {usersData.map(({ name, email, id }) => {
             return (
-              <div key={id} className="col-3">
+              <div
+                style={{ maxWidth: "15rem" }}
+                key={id}
+                className="col-sm mx-auto text-center"
+              >
                 <UserCard name={name} email={email} />
               </div>
             );
