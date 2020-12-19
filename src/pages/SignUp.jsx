@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import UserApis from "../../api/UsersApi";
-import { useLogged } from "../../context/Logged";
+import UserApis from "../api/UsersApi";
+import { useLogged } from "../context/Logged";
 
 export default function SignUp() {
   const [name, setName] = useState("");

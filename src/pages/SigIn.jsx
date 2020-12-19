@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import UserApis from "../../api/UsersApi";
-import { useLogged } from "../../context/Logged";
-import "./Sign.css";
+import UserApis from "../api/UsersApi";
+import { useLogged } from "../context/Logged";
+import "./Pages.css";
 
 export default function SigIn() {
   const [email, setEmail] = useState("");
