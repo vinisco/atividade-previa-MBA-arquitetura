@@ -6,7 +6,7 @@ Projeto criado sem a exigência de criptografia e demais praxes, apenas pra most
 
 Para executar o projeto, será necessário:
 
-- [Yarn: para usar como gerenciador de pacotes pro projeto](hhttps://yarnpkg.com/lang/en/docs/install/)
+- [Yarn: para usar como gerenciador de pacotes pro projeto](https://yarnpkg.com/lang/en/docs/install/)
 - [Node.js: para executar os nossos códigos](https://nodejs.org/en/download/)
 
 ## Instalando
@@ -18,7 +18,7 @@ cd "diretorio de sua preferencia"
 git clone https://github.com/vinisco/atividade-previa-MBA-infraestrutura
 ```
 
-Depois utilizar o yarn install dentro do diretório para instalar as dependencias:
+Depois utilizar o yarn dentro do diretório para instalar as dependencias:
 
 ```shell
 yarn install
